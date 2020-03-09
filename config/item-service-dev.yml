@@ -3,7 +3,7 @@ spring:
     name: item-service
   cloud:
     config:
-      override-none: true #不覆盖--server.port的端口配置(从配置中心得到的配置优先级高于--server.port)
+      override-none: true 
   rabbitmq:
     host: 192.168.64.140
     port: 5672
